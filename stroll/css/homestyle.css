@@ -40,3 +40,6 @@ html{overflow: hidden;}
 .red,.hover-red:hover{color:#fff!important;background-color:#df5d54!important}
 .logo{font-size:25px;width:200%;overflow:hidden;color:white;padding:16px 16px;width:auto;border:none;display:block;outline:0;text-decoration:none}
 
+*:focus {
+    outline: none;
+}

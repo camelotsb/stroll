@@ -75,3 +75,7 @@ input {
 .loginForm {
     border: 1px coral;
 }
+
+*:focus {
+    outline: none;
+}

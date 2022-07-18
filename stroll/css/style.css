@@ -294,3 +294,7 @@ body{
 	padding: 15px !important;
 	color: white;
 }
+
+*:focus {
+    outline: none;
+}
