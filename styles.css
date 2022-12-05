@@ -7,7 +7,7 @@ body{
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 250%;
     font-family: 'Trebuchet MS';
     color: #daebe8;
     font-weight: bold; 
@@ -45,7 +45,6 @@ body{
     background-color: #8d9db6;
     text-align: center;
     padding:25%;
-    width:100%
 }
 
 .page2{
@@ -64,7 +63,7 @@ body{
 
 
 .address{
-    color: #d6bdb2;
+    color: #e6f4f4;
     background-color: transparent;
     text-decoration: none;
     align-items: left; 
