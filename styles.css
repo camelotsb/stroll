@@ -77,4 +77,8 @@ body{
     padding: 0%;
 }
 
+.sign:hover{
+    opacity: 0.8;
+  }
+
 
