@@ -1,12 +1,13 @@
-
 form{
     background-color: black;
+    padding: 2.5%;
+    margin:0%;
   }
 
 input[type=text], input[type=password] {
     width: 75%;
-    padding: 0.5% 1%;
-    margin: 2.5% 0;
+    padding: 1% 1.5%;
+    margin: 2.5% 2.5%;
     border: 1% solid #ccc;
     box-sizing: border-box;
   }
@@ -21,32 +22,21 @@ button {
     width: 25%;
   }
   
-button:hover {
+button:hover , a:hover{
     opacity: 0.8;
   }
 
-.cancelbtn {
-    width: auto;
-    padding: 1% 1%;
-    background-color: #f44336;
-  }
-  
 .container {
-    padding: 5% 0.5% 5% 0.5%;
+    padding: 2.5% 0.5% .55% 0.5%;
     width:50%;
     height:50%;
-    margin: 2.5% 2.5% 2.5% 22.5%;
+    margin: 2.5% 2.5% 2.5% 25%;
   }
   
 .checkbox {
     color: #bccad6;
-    margin-top: 25%;
+    margin-bottom: 1%;
 }
-
-span.psw {
-    float: right;
-    padding-top: 2.5%;
-  }
 
 span.checkbox {
     float: right;
