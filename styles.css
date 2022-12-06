@@ -4,6 +4,9 @@ body{
     margin-top: 0px;
     background-color: black;
     font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
+    min-height: 100%;
+    
 }
 
 .logo{
@@ -43,20 +46,30 @@ body{
 
 .page1{
     background-color: #8d9db6;
+    background-image: url("local_images/world.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    /*try*/ /*background-attachment: fixed;*/
     text-align: center;
+    padding:25%;
+    height: 100%;
+    width: 100vh;
+
 }
 
 .page2{
     background-color: #bccad6 ;
     text-align: center;
     padding:25%;
-    width:100%
+    width:100vh;
+    height: 100%;
+
 }
 .page3{
     background-color: #cfe0e8;
     text-align: center;
     padding:25%;
-    width:100%;
+    
     margin-bottom: 0%;
 }
 
