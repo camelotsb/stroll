@@ -94,4 +94,9 @@ body{
     opacity: 0.8;
   }
 
+  a{
+    text-decoration: none;
+    color:#daebe8;
+  }
+
 

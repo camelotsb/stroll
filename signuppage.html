@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signupstyles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign up</title>
+</head>
+<body style="background-color: #8d9db6;">
+    <div class="navbar">
+        <img src="local_images/menu.png" alt="menu" width="3%" height="2.5%" style="padding: 1% 0% 0% 1%;">
+        <p class="logo">
+            <a href='homepage.html'>&nbsp;STROLL</a>
+        </p>
+        <div class="bar">
+            <a class="sign" href="loginpage.html">Login &ensp;</a>
+        </div>
+    </div>
+    <br>
+    <div style="font-size: large; align-items:center; padding: 0% 20% 0% 45%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">
+        <h1>Sign Up</h1>
+    </div>
+    <form action="action_page.php">
+        <div class="container">
+      
+          <label for="email" style="color: #bccad6;"><b>Email:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+          <br>
+          <label for="psw" style="color: #bccad6;"><b>Password:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <br>
+          <label for="psw-repeat" style="color: #bccad6;"><b>Repeat Password:</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          <br>
+          <br>
+          <label style="color: #bccad6;">
+           <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+      
+          <p style="color: #bccad6;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>      
+</body>
+</html>
