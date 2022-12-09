@@ -1,4 +1,4 @@
-#STROLL
+STROLL
 
 > Stroll is a Social Networking Web Application.
 > It works as you log in using your credentials and enter your world.
