@@ -46,7 +46,6 @@ body{
 
 .page1{
     background-color: #8d9db6;
-    background-image: url("local_images/world.png");
     background-repeat: no-repeat;
     background-position:center;
     /*try*/ /*background-attachment: fixed;*/
@@ -56,6 +55,15 @@ body{
     width: 100vh;
 
 }
+
+#worldMap{
+    width:500px; height: 500px; 
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url("local_images/world.png");
+}
+
+
 
 .page2{
     background-color: #bccad6 ;
