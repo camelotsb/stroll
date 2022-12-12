@@ -19,6 +19,6 @@ function mouseDown(e) {
 function divMove(e) {
   var div = document.getElementById('worldMap');
   div.style.position = 'absolute';
-  div.style.top = e.clientY + 'px';
-  div.style.left = e.clientX + 'px';
+  div.style.top = e.clientY -250+ 'px';
+  div.style.left = e.clientX -250+ 'px';
 }
